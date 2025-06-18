@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>主页</title>
+    </head>
+
+    <body>你已经登陆成功！
+    <form th:action = "@{/logout}" action ="/login" method="post">
+        <imput type="submit" value="退出系统"/>
+    </form>
+    </body>
+</html>
